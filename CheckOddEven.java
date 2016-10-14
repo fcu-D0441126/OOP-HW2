@@ -1,5 +1,3 @@
-package fcu.iecs.oop;
-
 import java.util.Scanner;
 
 public class CheckOddEven {
