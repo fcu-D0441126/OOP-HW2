@@ -13,7 +13,7 @@ public class KeyboardScanner {
 		float_point_number=scanf.nextFloat();
 		System.out.printf("Enter a you name:");
 		name=scanf.next();
-		System.out.printf("Hi %s, the multiplication of %d and %f is %e ", name , integer , float_point_number , integer*float_point_number );
+		System.out.printf("Hi %s, the multiplication of %d and %.5f is %.2e ", name , integer , float_point_number , integer*float_point_number );
 		scanf.close();
 	}
 
